@@ -1,0 +1,4 @@
+[2026-01-27 00:24:15] === Proxy started ===
+[2026-01-27 00:24:15] Listening on port 18085, forwarding to 127.0.0.1:8085
+[2026-01-27 00:31:42] === Proxy started ===
+[2026-01-27 00:31:42] Listening on port 8085, forwarding to 127.0.0.1:8086
