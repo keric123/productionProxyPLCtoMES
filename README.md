@@ -18,16 +18,6 @@ Graceful error handling to keep production stable even when PLC messages are inc
 
 This tool is intended for production environments where PLC‑to‑MES communication must be protected, monitored, and made more resilient.
 
-Diagram:
- ┌──────────────┐        ┌────────────────────┐        ┌──────────────┐
- │     PLC       │ -----> │   productionProxy   │ -----> │     MES       │
- │ (Machine Side)│        │ (This Application)  │        │   (GHP App)   │
- └──────────────┘ <----- └────────────────────┘ <----- └──────────────┘
-         ▲                        ▲                          ▲
-         │                        │                          │
-         │                        │                          │
-         └──────────── Logs & Diagnostics ───────────────────┘
-
 The PLC must point to the proxy’s listening port.
 
 The proxy forwards messages to the MES port.
